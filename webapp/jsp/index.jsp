@@ -5,5 +5,5 @@
 <script src="res/js/main.js"></script>
 
 <div class="main-div">
-	<div class="big-font">Hello Team!!!</div>
+	<div class="big-font">Hello :P  Team!!!</div>
 </div>
