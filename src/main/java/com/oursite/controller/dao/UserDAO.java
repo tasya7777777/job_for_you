@@ -1,5 +1,9 @@
 package main.java.com.oursite.controller.dao;
 
-public interface UserDAO {
+import main.java.com.oursite.model.User;
+
+
+
+public interface UserDAO extends GenericDAO<User>{
 
 }
