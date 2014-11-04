@@ -6,13 +6,16 @@ public class Company {
 	private String telephone;
 	private String email;
 	private String contactPerson;
-	private Vacancy listVacancy;
+	private List<Vacancy> listVacancy;
+	private int id;
+	
+
 
 	@Override
 	public String toString() {
 		return "Company [nameCompany=" + nameCompany + ", description="
 				+ description + ", telephone=" + telephone + ", email=" + email
-				+ ", contactPerson=" + contactPerson + "]";
+				+ ", contactPerson=" + contactPerson + ", id=" + id + "]";
 	}
 
 	public String getNameCompany() {
@@ -55,12 +58,20 @@ public class Company {
 		this.contactPerson = contactPerson;
 	}
 
-	public Vacancy getListVacancy() {
+	public List<Vacancy> getListVacancy() {
 		return listVacancy;
 	}
 
-	public void setListVacancy(Vacancy listVacancy) {
+	public void setListVacancy(List<Vacancy> listVacancy) {
 		this.listVacancy = listVacancy;
 	}
+	
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 }
