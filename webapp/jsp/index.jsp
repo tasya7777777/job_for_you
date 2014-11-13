@@ -5,5 +5,10 @@
 <script src="res/js/main.js"></script>
 
 <div class="main-div">
-	<div class="big-font">Hello :P  Team!!!</div>
+    <div align="right">
+     <form action="registration" method="get">
+      <button type="submit">registration</button>
+      </form>
+      </div>
+	<div class="big-font">Hello :P Team!!!</div>
 </div>
