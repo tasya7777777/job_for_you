@@ -6,7 +6,7 @@
 
 <div class="main-div">
     <div align="right">
-     <form action="registration" method="get">
+     <form action="RegistrationServlet" method="get">
       <button type="submit">registration</button>
       </form>
       </div>

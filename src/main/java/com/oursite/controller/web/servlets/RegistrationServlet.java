@@ -1,6 +1,5 @@
 package main.java.com.oursite.controller.web.servlets;
 
-import UserService;
 
 import java.io.IOException;
 
@@ -31,8 +30,8 @@ requestDispatcher.forward(request, response);
 	user.setEmail(request.getParameter("email"));
 	user.setPassword(request.getParameter("password"));
 	
-	UserService service = new UserService();
-	service.insert(user);
+	//UserService service = new UserService();
+	//service.insert(user);
 	 
 	request.setAttribute("email", request.getParameter("email"));
 	request.setAttribute("password", request.getParameter("password"));
