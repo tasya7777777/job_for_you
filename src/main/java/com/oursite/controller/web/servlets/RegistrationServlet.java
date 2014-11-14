@@ -35,7 +35,7 @@ requestDispatcher.forward(request, response);
 	 
 	request.setAttribute("email", request.getParameter("email"));
 	request.setAttribute("password", request.getParameter("password"));
-	RequestDispatcher x = getServletContext().getRequestDispatcher(
+	RequestDispatcher x = request.getRequestDispatcher(
 			"/jsp/mf.jsp");
 	x.forward(request, response);
 	
