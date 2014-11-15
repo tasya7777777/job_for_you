@@ -29,11 +29,13 @@ requestDispatcher.forward(request, response);
 	User user = new User();
 	user.setEmail(request.getParameter("email"));
 	user.setPassword(request.getParameter("password"));
+	user.setPassword(request.getParameter("password"));
 	
 	//UserService service = new UserService();
 	//service.insert(user);
 	 
 	request.setAttribute("email", request.getParameter("email"));
+	request.setAttribute("password", request.getParameter("password"));
 	request.setAttribute("password", request.getParameter("password"));
 	RequestDispatcher x = request.getRequestDispatcher(
 			"/jsp/job.jsp");
